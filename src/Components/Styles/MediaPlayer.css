@@ -1,0 +1,17 @@
+    #playerContainer {
+        background-color: var(--secondary-color);
+        display: flex;
+        justify-content: center;
+    }
+    
+    iframe {
+        width: 100vw;
+        height: 400px;
+    }
+    
+    @media only screen and (min-width: 600px) {
+        iframe {
+            width: 70vw;
+            height: 400px;
+        }
+    }

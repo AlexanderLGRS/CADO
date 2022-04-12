@@ -1,0 +1,11 @@
+.navbar-nav {
+    margin-left: auto;
+}
+
+.header-logo {
+    border: 2px solid black;
+    height: 100%;
+    border-radius: 100px;
+    width: 50px;
+    margin-right: 10px;
+}
