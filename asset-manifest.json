@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/CADO/static/css/main.73c034a7.css",
+    "main.js": "/CADO/static/js/main.2d242103.js",
+    "static/js/787.ef64a732.chunk.js": "/CADO/static/js/787.ef64a732.chunk.js",
+    "index.html": "/CADO/index.html",
+    "main.73c034a7.css.map": "/CADO/static/css/main.73c034a7.css.map",
+    "main.2d242103.js.map": "/CADO/static/js/main.2d242103.js.map",
+    "787.ef64a732.chunk.js.map": "/CADO/static/js/787.ef64a732.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.73c034a7.css",
+    "static/js/main.2d242103.js"
+  ]
+}
