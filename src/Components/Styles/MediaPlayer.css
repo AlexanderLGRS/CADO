@@ -1,5 +1,6 @@
     #playerContainer {
-        background-color: var(--secondary-color);
+        background-color: var(--principal-color);
+        padding: 20px 0;
         display: flex;
         justify-content: center;
     }

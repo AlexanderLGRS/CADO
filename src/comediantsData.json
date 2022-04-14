@@ -1,0 +1,27 @@
+{
+    "comediants": [{
+            "id": 1,
+            "name": "Camilo Sanchez",
+            "ig": "dejemequieto",
+            "pic": "https://github.com/AlexanderLGRS/ConAnimoDeOfender/raw/main/Assets/comediants/CamiloSanchez.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Duvan Gomez",
+            "ig": "dudagoga",
+            "pic": "https://github.com/AlexanderLGRS/ConAnimoDeOfender/raw/main/Assets/comediants/Duvan%20Gomez.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Camilo Diaz",
+            "ig": "culotauro",
+            "pic": "https://github.com/AlexanderLGRS/ConAnimoDeOfender/raw/main/Assets/comediants/Camilo%20Diaz.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Gabriel Murillo",
+            "ig": "elgordinflas",
+            "pic": "https://github.com/AlexanderLGRS/ConAnimoDeOfender/raw/main/Assets/comediants/Gabriel%20Murillo.jpg"
+        }
+    ]
+}

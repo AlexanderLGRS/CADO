@@ -1,10 +1,13 @@
 import './App.css';
 import Header from './Components/Header';
-import { useState } from 'react';
+import React, { useState } from 'react';
 import CharapterCard from './Components/CharapterCard';
 import CharaptersContainer from './Components/CharaptersContainer';
 import MediaPlayer from './Components/MediaPlayer';
 import SectionTitle from './Components/SectionTitle';
+import ComediantsContainer from './Components/ComediantsContainer';
+import ComediantCard from './Components/ComediantCard';
+import comediants from './comediantsData.json';
 
 function App() {
     let videos = [];
@@ -23,6 +26,7 @@ function App() {
         fetch(`${url}${part}${maxresults}${playlistid}${key}`)
             .then((response) => response.json())
             .then((data) => {
+                console.log(data);
                 if (data.prevPageToken) {
                     setPrevPagetoken(data.prevPageToken);
                 }
@@ -68,10 +72,10 @@ function App() {
         setCurrentVideo(data.id);
     };
     return (
-        <>
+        <React.Fragment>
             <Header />
             <MediaPlayer videoID={currentVideo} autoplay={1} />
-            {!buttonsState && <SectionTitle title='Capitulos' id='chapters'/>}
+            {!buttonsState && <SectionTitle title='Capitulos' id='chapters' />}
             <CharaptersContainer>
                 {myVideos.map((video) => (
                     <CharapterCard
@@ -106,7 +110,17 @@ function App() {
                     )}
                 </div>
             </CharaptersContainer>
-        </>
+            <SectionTitle title='Comediantes' id='comediants' />
+            <ComediantsContainer>
+                {comediants.comediants.map((comediant) => (
+                    <ComediantCard
+                        name={comediant.name}
+                        pic={comediant.pic}
+                        ig={comediant.ig}
+                    />
+                ))}
+            </ComediantsContainer>
+        </React.Fragment>
     );
 }
 

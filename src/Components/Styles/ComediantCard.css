@@ -1,0 +1,14 @@
+.comediantCard {
+    margin-bottom: 20px;
+    width: 18rem
+}
+
+.comediantImage {
+    border-radius: 100%;
+    width: 70%;
+    margin: 10px auto;
+}
+
+.card {
+    border-radius: 20px;
+}
